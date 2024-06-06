@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.required:after {
+    content: " *";
+    color: red;
+}
+input, textarea, select {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+textarea {
+    resize: vertical;
+}
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #e9f5ff;
+    border-radius: 8px;
+}
+.add-btn, .remove-btn {
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.remove-btn {
+    color: red;
+}
+#submitBtn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#submitBtn:hover {
+    background-color: #218838;
+}
+.header, .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content div {
+    flex: 1 1 45%;
+}
