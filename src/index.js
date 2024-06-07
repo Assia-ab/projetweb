@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './cv.css';
-import './formulaire.css';
+import '../src/cv.css';
+import '../src/formulaire.css';
 
 import reportWebVitals from './reportWebVitals';
 
